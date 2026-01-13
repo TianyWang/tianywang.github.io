@@ -1,7 +1,7 @@
 ---
 title: 'Tank Battle: the first shot when I learn Python'
 date:  2025-12-31
-permalink: /fun-projects/2025/12/fun-project-1/
+permalink: /fun-projects/2025/12/tank-battle/
 excerpt: "A simple 2D tank battle game built with pygame, featuring AI-controlled enemies, destructible environments, and procedurally generated maps."
 tags:
   - Python  
