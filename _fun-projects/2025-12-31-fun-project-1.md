@@ -1,12 +1,15 @@
 ---
-title: "Tank Battle: the first shot when I learn Python"
-date: 2025-12-31
-permalink: /fun-projects/2025/12/tank-battle/
+title: 'Tank Battle: the first shot when I learn Python'
+date:  2025-12-31
+permalink: /fun-projects/2025/12/fun-project-1/
 excerpt: "A simple 2D tank battle game built with pygame, featuring AI-controlled enemies, destructible environments, and procedurally generated maps."
+tags:
+  - Python  
+  - pygame
 ---
 
+
 ## Game Overview
-![Tank Battle Screenshot](/images/tank-battle-screenshot.gif)
 
 **Tank Battle** is a 2D game developed in **Python using pygame**.
 
@@ -35,4 +38,6 @@ This project therefore reflects both my **early interest in coding with C++** an
   - Real-time bullet physics
   - Accurate collision detection between tanks, walls, and projectiles
 
+## Screen Shot
 
+![Tank Battle Screenshot](/images/tank-battle-screenshot.gif)
