@@ -1,9 +1,19 @@
 ---
 layout: archive
-permalink: /fun-projects/
-title: "Fun Projects"
+permalink: /year-archive/
+title: "Fun projects"
+author_profile: true
+redirect_from:
+  - /wordpress/fun-projects/
 ---
 
-{% for post in site.fun-projects %}
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for project in site.fun-projects %}
+  {% capture year %}{{ project.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
