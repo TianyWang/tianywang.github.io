@@ -224,6 +224,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  blog-posts:
+    output: true
+    permalink: /:collection/:path/
   fun-projects:
     output: true
     permalink: /:collection/:path/
