@@ -225,7 +225,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   fun-projects:
-    output: false
+    output: true
     permalink: /:collection/:path/
 
 
